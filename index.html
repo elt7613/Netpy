@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetPy Tech</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Urbanist' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/nav.css">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/section_1.css">
+    <link rel="stylesheet" href="CSS/section_2.css">
+    <link rel="stylesheet" href="CSS/section_3.css">
+    <link rel="stylesheet" href="CSS/section_4.css">
+    <link rel="stylesheet" href="CSS/section_5.css">
+    <link rel="stylesheet" href="CSS/section_6.css">
+    <link rel="stylesheet" href="CSS/section_7.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+
+</head>
+<body>
+    <!--=========== Background Video ===============-->
+    <video autoplay loop muted playsinline class="bg-video">
+        <source src="ASSETS/bgvideo.mp4" type="video/mp4"> <!-- Add your video file here -->
+        Your browser does not support the video tag.
+    </video>
+
+
+    <!--========== NAVBAR ==============-->
+    <section class="navbar">
+        <nav>
+            <ul>
+               <li class="logo">Net<span>Py</span> Technologies</li>
+               <li class="btn"><span class="fas fa-bars"></span></li>
+               <div class="items">
+                  <li><a href="#">What we don't do?</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Find us here</a></li>
+                  <li><a href="#">What we provide?</a></li>
+               </div>
+
+               <li class="logo-1">Net<span>Py</span> Technologies</li>
+            </ul>
+         </nav>
+    </section>
+    <script>
+        $('nav ul li.btn span').click(function(){
+          $('nav ul div.items').toggleClass("show");
+          $('nav ul li.btn span').toggleClass("show");
+        });
+     </script>
+
+
+
+    <!--=============== SECTION 1 =====================-->
+    <section class="section-1">
+        <!-- Hero Section -->
+        <div class="hero">
+            <div class="hero-content">
+                <h1 class="hero-text">
+                    TOGETHER WE <br />
+                    <p>
+                        <span id="animated-text" class="word w-1">
+                            <span class="colored-letter">d</span>evelop
+                        </span>
+                        <span id="animated-text" class="word w-2">
+                            <span class="colored-letter">p</span>rogress
+                        </span>
+                    </p> 
+                </h1>
+
+
+                <div class="hero-paragraph">
+                    <p>
+                        <span class="line thick-line"></span>
+                        Delivering meticulous attention to detail in
+                        every service, ensuring reliability and trust
+                        with each project we undertake.
+                        <span class="line thin-line"></span>
+                    </p>
+                    <button class="get-in-touch-button">Get in Touch</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card Section -->
+        <div class="cards-section">
+            <div class="card">
+                <h3 class="card-header"></h3>
+                <p class="card-description"></p>
+                <div class="new-content"></div>
+                <a href="" class="see-more-link"></a>
+            </div>
+        </div>
+    </section>
+
+    <!--=============== SECTION 2 =================-->
+    <section class="section-2">
+        <!-- header -->
+        <header>
+            Crafted <span>by Us</span>
+        </header>
+
+        <p class="info">
+            Each project displayed highlights the dedication, skill, and innovation that drive our work. From concept to completion, our employees' contributions are a testament to their craftsmanship, delivering excellence across all areas of design and development.
+        </p>
+
+        <!-- Slider -->
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide">
+                    <img src="ASSETS/section_2/section_2_slider_img1.png" alt="FinStack Logo" class="logo">
+                    <div class="content">
+                        <h2>FinStack Brand Logo Design</h2>
+                        <p>This embodies financial innovation, blending modern elegance with sleek lines, symbolizing growth, stability, and digital transformation.</p>
+                        <a href="#" class="know-more">
+                          Know more
+                          <img src="./ASSETS/arrow.png" />
+                        </a>
+                    </div>
+                </div>
+                <div class="slide">
+                  <img src="ASSETS/section_2/section_2_slider_img2.png" alt="Hotel Forest Avenue" class="logo">
+                  <div class="content">
+                      <h2>Hotel Forest Avenue</h2>
+                      <p>The primary goal of the project was to provide an online platform that captures the essence of Hotel Forest Avenue while facilitating a smooth booking process.</p>
+                      <a href="#" class="know-more">
+                        Know more
+                        <img src="./ASSETS/arrow.png" />
+                      </a>
+                  </div>
+              </div>
+              <div class="slide">
+                <img src="ASSETS/section_2/section_2_slider_img3.png" alt="Mobile Application Case Study" class="logo">
+                <div class="content">
+                    <h2>Mobile Application Case Study</h2>
+                    <p>This is a UX Case study for a mobile application which deals with event booking and event hosting.</p>
+                    <a href="#" class="know-more">
+                      Know more
+                      <img src="ASSETS/section_2/arrow.png" />
+                    </a>
+                </div>
+            </div>
+            </div>
+            <div class="nav-buttons">
+                <button class="nav-button prev">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path fill="white" d="M11.03 8.53a.75.75 0 1 0-1.06-1.06l-4 4a.75.75 0 0 0 0 1.06l4 4a.75.75 0 1 0 1.06-1.06l-2.72-2.72H18a.75.75 0 0 0 0-1.5H8.31z"/>
+                  </svg>
+                </button>
+                <button class="nav-button next">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path fill="white" d="M13.47 8.53a.75.75 0 0 1 1.06-1.06l4 4a.75.75 0 0 1 0 1.06l-4 4a.75.75 0 1 1-1.06-1.06l2.72-2.72H6.5a.75.75 0 0 1 0-1.5h9.69z"/>
+                  </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <!--================ SECTION 3 ====================-->
+    <section class="section-3">
+        <!-- Fixed Container -->
+        <div class="container">
+            <h1>Our <span>Achievements</span></h1>
+        </div>
+
+        <!-- Moving Cards -->
+        <div class="card-container">
+            <div class="card card-1">
+                <span>
+                    We listen to you carefully
+                </span>
+            </div>
+            <div class="card card-2">
+                <span>
+                    We understand you as a human who needs a good tech
+                </span>
+            </div>
+            <div class="card card-3">
+                <span>
+                    We are grounded 
+                </span>
+            </div>
+        </div>
+    </section>
+
+
+    <!--=============== SECTION 4 =================-->
+    <section class="section-4">
+        <!-- Video Section -->
+        <div class="video-section">
+            <video autoplay muted loop>
+                <source src="ASSETS/section_4/section_4_video.mp4" type="video/mp4">
+            </video>
+        </div>
+    
+        <!-- Content Section -->
+        <div class="content-section">
+            <div>
+                <h1>
+                    Innovation and <br/>
+                    Adaptation <span>With NetPy</span>
+                </h1>
+                <p>
+                    Stay updated with industry trends to introduce new services or improve existing ones and regularly gather market research to stay ahead of competitors and adapt to changes.
+                </p>
+            </div>
+        </div>
+
+        <!-- Card -->
+        <div class="card">
+            <h3>
+                Feedback and Continuous Improvement
+            </h3>
+            <h1>
+                Stay Updated with <br/>
+                Industry Trends<br/>
+                Market Research<br/>
+                Pilot New Services<br/>
+                Flexibility
+            </h1>
+        </div>
+        
+    </section>
+
+
+    <!--=============== SECTION 5 ======================-->
+    <!-- Customers & Clients Section -->
+    <section class="section-5">
+        <div class="bg-video-container">
+            <video autoplay loop muted playsinline class="bg-video">
+                <source src="assets/images/bgvideo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="clients-content">
+            <h2>
+                <span>Our esteemed</span><br>
+                <span class="highlight">Customers & Clients</span>
+            </h2>
+            <div class="client-logos">
+                <div class="logo-wrapper">
+                    <img src="ASSETS/section_5/greenlogica.png" alt="Company 1">
+                    <img src="ASSETS/section_5/Teknikoz.png" alt="Company 2">
+                    <img src="ASSETS/section_5/par.png" alt="Company 3">
+                    <img src="ASSETS/section_5/sea.png" alt="Company 4">
+                    <img src="ASSETS/section_5/event.png" alt="Company 5">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--================= SECTION 6 ===============-->
+    <section class="section-6">
+        <!-- Video Section -->
+        <div class="video-section">
+            <video autoplay muted loop>
+                <source src="ASSETS/section_6/section_6_video.mp4" type="video/mp4">
+            </video>
+        </div>
+    
+        <!-- Content Section -->
+        <div class="content-section">
+            <div>
+                <h1>
+                    Customer-Centric<br/>
+                    Approach <span>With NetPy</span>
+                </h1>
+                <p>
+                    By focusing on delivering personalized and consistent service, a business can enhance client satisfaction and loyalty, which drives repeat business and long-term growth.
+                </p>
+            </div>
+        </div>
+
+        <!-- Card -->
+        <div class="card">
+            <h3>
+                Customer-Centric Approach
+            </h3>
+            <h1>
+                Understand Customer <br/>
+                Needs<br/>
+                Personalized Service<br/>
+                Build Trust<br/>
+            </h1>
+        </div>
+    </section>
+
+
+    <!--=============== SECTION 7 ===============-->
+    <div class="section-7">
+        <img class="section-7-gif" src="ASSETS/section_7/section_7.gif" alt="image">
+        <div class="section-7-text-overlay">
+            <p>
+                Precision in Every Project <br/>
+                <span>Trust in Every Step</span>
+            </p>
+            <span>
+                Delivering meticulous attention to detail in every service, ensuring reliability and trust with each project we undertake.
+            </span>
+
+            <button class="section-7-button">Get in Touch</button>
+        </div>
+    </div>
+
+
+    <!--============= FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Left side: Part A and Part B -->
+            <div class="footer-left">
+                <div class="footer-part-a">
+                    <h2>Let there be <span class="highlighted-word">INNOVATION</span></h2>
+                </div>
+                <div class="footer-part-b">
+                    <div class="footer-column">
+                        <ul>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Location</a></li>
+                            <li><a href="#">Sitemap</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <ul>
+                            <li><a href="#">Privacy Statement</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Cookie Policy/Settings</a></li>
+                            <li><a href="#">Accessibility Statement</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right side: GIF -->
+            <div class="footer-right">
+                <div class="footer-gif">
+                    <img src="ASSETS/footer/footer-gif.gif.png" alt="Innovative gif">
+                </div>
+            </div>
+        </div>
+        <!-- Copyright Text -->
+        <div class="footer-copyright">
+            @ 2024 NetPy. All Rights Reserved
+        </div>
+    </footer>
+
+
+<!--============= Link to JS ==============-->
+    <script src="JS/animatedText.js"></script>
+    <script src="JS/card.js"></script>
+    <script src="JS/section_2.js"></script>
+    <script src="JS/section_5.js"></script>
+    <script src="JS/section_7.js"></script>
+</body>
+</html>

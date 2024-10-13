@@ -1,0 +1,66 @@
+/* Customers & Clients Section */
+.section-5 {
+    position: relative;
+    padding: 100px 0;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+.section-5 h2 {
+    font-size: 4em; /* Bigger font size */
+    font-weight: 700;
+    color: #fff; /* White color for "Our esteemed" */
+    margin-bottom: 40px;
+}
+
+.section-5 h2 .highlight {
+    color: rgb(133, 11, 232); /* Special color for "Customers & Clients" */
+}
+
+.section-5 .client-logos {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.section-5 .logo-wrapper {
+    display: flex;
+    gap: 50px; /* Set gap between logos */
+    /* We'll handle animation in JS */
+}
+
+.section-5 .logo-wrapper img {
+    height: 100px; /* Consistent logo size */
+    width: auto;
+    margin: 0 15px;
+   
+    transition: filter 0.3s ease, transform 0.5s ease;
+}
+
+.section-5 .logo-wrapper img:hover {
+    filter: none; /* Remove greyscale on hover */
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .section-5 h2 {
+        font-size: 3em;
+    }
+    .logo-wrapper img {
+        height: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-5 h2 {
+        font-size: 2.2em;
+    }
+    .logo-wrapper img {
+        height: 60px;
+    }
+}

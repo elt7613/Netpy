@@ -1,0 +1,204 @@
+.section-3 {
+    position: relative;
+    min-height: 100vh;
+    overflow-y: auto; /* Allow vertical scrolling */
+    font-family: 'Urbanist';
+    transition: all 0.5s ease;
+}
+
+.section-3 .container {
+    position: relative; /* Change to sticky positioning */
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    transition: all 0.5s ease;
+    z-index: 0;
+}
+
+.section-3 .container h1 {
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 1.2;
+    color: #fff;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+.section-3 .container h1 span{
+    color: #9747ff;
+}
+
+/* Moving cards */
+.section-3 .card-container {
+    position: relative;
+    margin-top: 40px;
+    /* padding-top: 100vh;  */
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+.section-3 .card-container .card {
+    position: relative;
+    margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 531px;
+    height: 412px;
+    padding: 20px;
+    border-radius: 15px;
+    transition: all 0.5s ease;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-align: center;
+}
+   
+   /* card 1 */
+   .section-3 .card-container .card-1{
+    background: #E13838;
+    left: -20%;
+   }
+   
+   .section-3 .card-container .card-1 span{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 2rem;
+    color: #fff;
+    transition: all 0.5s ease;
+   }
+   
+   /* card 2 */
+   .section-3 .card-container .card-2{
+    background: #9747FF;
+    left: 20%;
+   }
+   
+   .section-3 .card-container .card-2 span{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 2rem;
+    color: #fff;
+    transition: all 0.5s ease;
+   }
+   
+   /* card 3 */
+   .section-3 .card-container .card-3{
+    background: #3D87C0;
+    left: -20%;
+   }
+   
+   .section-3 .card-container .card-3 span{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 2rem;
+    color: #fff;
+    transition: all 0.5s ease;
+   }
+
+/* 320px */
+@media screen and (min-width: 320px){
+    .section-3 .container h1{
+        font-size: 2.3rem;
+    }
+
+    .section-3 .card-container .card{
+        width: 300px;
+    }
+    .section-3 .card-container .card-1{
+        left: 0;
+    }
+    .section-3 .card-container .card-2{
+        left: 0;
+    }
+    .section-3 .card-container .card-3{
+        left: 0;
+    }
+}
+/* 375px */
+@media screen and (min-width: 375px){
+    .section-3 .container h1{
+        font-size: 2.8rem;
+    }
+
+    .section-3 .card-container .card{
+        width: 350px;
+    }
+    .section-3 .card-container .card-1{
+        left: 0;
+    }
+    .section-3 .card-container .card-2{
+        left: 0;
+    }
+    .section-3 .card-container .card-3{
+        left: 0;
+    }
+}
+/* 425px */
+@media screen and (min-width: 425px){
+    .section-3 .container h1{
+        font-size: 3rem;
+    }
+
+    .section-3 .card-container .card{
+        width: 400px;
+    }
+    .section-3 .card-container .card-1{
+        left: 0;
+    }
+    .section-3 .card-container .card-2{
+        left: 0;
+    }
+    .section-3 .card-container .card-3{
+        left: 0;
+    }
+}
+/* 768px */
+@media screen and (min-width: 768px){
+    .section-3 .container h1{
+        font-size: 3.6rem;
+    }
+
+    .section-3 .card-container .card{
+        width: 450px;
+    }
+    .section-3 .card-container .card-1{
+        left: -15%;
+    }
+    .section-3 .card-container .card-2{
+        left: 15%;
+    }
+    .section-3 .card-container .card-3{
+        left: -15%;
+    }
+}
+/* 1024px */
+@media screen and (min-width: 1024px){
+    .section-3 .container h1{
+        font-size: 4.5rem;
+    }
+
+    .section-3 .card-container .card{
+        width: 531px;
+    }
+    .section-3 .card-container .card-1{
+        left: -20%;
+    }
+    .section-3 .card-container .card-2{
+        left: 20%;
+    }
+    .section-3 .card-container .card-3{
+        left: -20%;
+    }
+}

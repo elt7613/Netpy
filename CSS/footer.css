@@ -1,0 +1,174 @@
+/* General Footer Styles */
+.footer {
+    width: 100%;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    backdrop-filter: blur(12px) saturate(180%);
+  -webkit-backdrop-filter: blur(12px) saturate(180%);
+  background-color: rgba(44, 41, 41, 0.25);
+  transition: all 0.5s ease;
+}
+
+/* Flex container to align left and right parts */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    transition: all 0.5s ease;
+}
+
+/* Left Side - Part A and Part B */
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 60%;
+    transition: all 0.5s ease;
+}
+
+/* Footer Part A (Heading) */
+.footer-part-a {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+.footer-part-a h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+.highlighted-word {
+    color: rgb(133, 11, 232); 
+    transition: all 0.5s ease;
+}
+
+/* Footer Part B (Two Columns) */
+.footer-part-b {
+    position: relative;
+    display: flex;
+    align-items: center; 
+    transition: all 0.5s ease;
+}
+
+.footer-column ul {
+    position: relative;
+    width: 100%;
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+    margin: 0px;
+    transition: all 0.5s ease;
+}
+
+.footer-column li {
+    position: relative;
+    width: 100px;
+    margin-bottom: 20px; 
+    transition: all 0.5s ease;
+}
+
+.footer-column a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all 0.5s ease;
+}
+
+/* Copyright Section */
+.footer-copyright {
+  margin-bottom: 20px;
+    text-align: center;
+    font-size: 14px;
+    width: 100%; 
+    color: #fff;
+    opacity: 1;
+    margin-right: 230px;
+    transition: all 0.5s ease;
+}
+
+/* Right Side - GIF */
+.footer-right {
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+.footer-gif img {
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.5s ease;
+}
+
+/* 320px */
+@media screen and (min-width: 320px){
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-left, .footer-right {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-part-a {
+        display: grid;
+    }
+    .footer-part-a h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .footer-part-b {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+    .footer-column li {
+        position: relative;
+        width: 100px;
+        margin-bottom: 20px; 
+       
+    }
+}
+/* 375px */
+@media screen and (min-width: 375px){
+    .footer-part-a h2{
+        font-size: 2.5rem;
+    }
+}
+/* 425px */
+@media screen and (min-width: 425px){
+    .footer-part-a h2{
+        font-size: 2.8rem;
+    }
+}
+/* 768px */
+@media screen and (min-width: 768px){
+    .footer-container {
+        flex-direction: row;
+        align-items: center;
+    }
+    .footer-part-a h2{
+        font-size: 3rem;
+    }
+}
+/* 1024px */
+@media screen and (min-width: 1024px){
+    .footer-part-a h2{
+        font-size: 3.5rem;
+    }
+}
+/* 1440px */
+@media screen and (min-width: 1440px){
+    .footer-part-a h2{
+        font-size: 4rem;
+    }
+}

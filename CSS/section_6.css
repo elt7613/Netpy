@@ -1,0 +1,211 @@
+
+.section-6 {
+    position: relative;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    font-family: 'Urbanist';
+    transition: all 0.5s ease;
+}
+
+/* Diagonal split - flipped */
+.section-6::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    clip-path: polygon(0 100%, 100% 100%, 100% 0);
+    transition: all 0.5s ease;
+}
+
+/* Left Side: Video Section */
+.section-6 .video-section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    clip-path: polygon(0 100%, 110% 100%, 100% -10%);
+    transition: all 0.5s ease;
+}
+
+.section-6 video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.5s ease;
+}
+
+/* Right Side: Content Section */
+.section-6 .content-section {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    clip-path: polygon(0 0%, 0% 0%, 100% 0);
+    display: flex;
+    color: white;
+    padding: 2rem;
+    text-align: left;
+    transition: all 0.5s ease;
+}
+
+.section-6 .content-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    transition: all 0.5s ease;
+}
+
+.section-6 .content-section p {
+    font-size: 1rem;
+    max-width: 400px;
+    transition: all 0.5s ease;
+}
+
+.section-6 .content-section h1 span {
+    color: #8e44ad;
+    transition: all 0.5s ease;
+}
+
+/* Card */
+.section-6 .card{
+    position: absolute;
+    left: 150px;
+    top: 300px;
+    width: 430px;
+    height: 391.8px;
+    border-radius: 10px;
+    padding: 40px 0px 0px 40px;
+    background-color: #f0f0f0;
+    transition: all 0.5s ease;
+    z-index: 2;
+}
+.section-6 .card h3{
+    position: relative;
+    color: #3C0A7E;
+    font-size: 1.1rem;
+    transition: all 0.5s ease;
+}
+.section-6 .card h1{
+    position: relative;
+    margin-top: 20px;
+    color: #000;
+    font-size: 2.5rem;
+    font-weight: 500;
+    transition: all 0.5s ease;
+}
+
+/* 320px */
+@media screen and (min-width: 320px){
+    .section-6 .content-section {
+        left: -15px;
+        clip-path: polygon(0 0%, 50% 500%, 100% 0);
+    }
+    .section-6 .content-section h1 {
+        font-size: 2rem;
+    }
+
+    .section-6 .card{
+        top: 320px;
+        left: 12px;
+        width: 300px;
+        padding: 40px 0px 0px 40px;
+    }
+    .section-6 .card h1{
+        font-size: 2rem;
+    }
+}
+/* 375px */
+@media screen and (min-width: 375px){
+    .section-6 .content-section {
+        left: -18px;
+        clip-path: polygon(0 0%, 50% 500%, 100% 0);
+    }
+    .section-6 .content-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .section-6 .card{
+        top: 350px;
+        left: 25px;
+        width: 330px;
+        padding: 40px 0px 0px 40px;
+    }
+    .section-6 .card h1{
+        font-size: 2.1rem;
+    }
+}
+/* 425px */
+@media screen and (min-width: 425px){
+    .section-6 .content-section {
+        left: -10px;
+        clip-path: polygon(0 0%, 0% 500%, 200% 0);
+    }
+    .section-6 .content-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .section-6 .card{
+        top: 300px;
+        left: 25px;
+        width: 380px;
+        padding: 40px 10px 0px 30px;
+    }
+    .section-6 .card h1{
+        font-size: 2.3rem;
+    }
+}
+/* 768px */
+@media screen and (min-width: 768px){
+    .section-6 .content-section {
+        left: 0;
+        clip-path: polygon(0 0%, 0% 500%, 100% 0);
+    }
+    .section-6 .content-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .section-6 .card{
+        top: 300px;
+        left: 40%;
+        width: 400px;
+        padding: 50px 10px 0px 25px;
+    }
+    .section-6 .card h1{
+        font-size: 2.5rem;
+    }
+}
+/* 1024px */
+@media screen and (min-width: 1024px){
+    .section-6 .content-section {
+        left: 0;
+        clip-path: polygon(0 0%, 0% 500%, 100% 0);
+    }
+    .section-6 .content-section h1 {
+        font-size: 3rem;
+    }
+
+    .section-6 .card{
+        top: 200px;
+        left: 50%;
+        width: 430px;
+        padding: 40px 10px 0px 20px;
+    }
+    .section-6 .card h1{
+        font-size: 2.7rem;
+    }
+}
+/* 1440px */
+@media screen and (min-width: 1440px){
+    .section-6 .content-section h1 {
+        font-size: 3.3rem;
+    }
+}

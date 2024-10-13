@@ -1,0 +1,231 @@
+.section-4 {
+    position: relative;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    font-family: 'Urbanist';
+    transition: all 0.5s ease;
+}
+
+/* Diagonal split - flipped */
+.section-4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    clip-path: polygon(0 100%, 100% 100%, 100% 0);
+    transition: all 0.5s ease;
+}
+
+/* Left Side: Video Section */
+.section-4 .video-section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    clip-path: polygon(0 100%, 110% 100%, -100% -50%);
+    transition: all 0.5s ease;
+}
+
+.section-4 video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.5s ease;
+}
+
+/* Right Side: Content Section */
+.section-4 .content-section {
+    position: relative;
+    left: 25%;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    clip-path: polygon(0 0%, 0% 500%, 100% 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 2rem;
+    text-align: right;
+    transition: all 0.5s ease;
+}
+
+.section-4 .content-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    transition: all 0.5s ease;
+}
+
+.section-4 .content-section p {
+    font-size: 1rem;
+    max-width: 400px;
+    transition: all 0.5s ease;
+}
+
+.section-4 .content-section h1 span {
+    color: #8e44ad;
+    transition: all 0.5s ease;
+}
+
+/* Card */
+.section-4 .card{
+    position: absolute;
+    left: 150px;
+    top: 300px;
+    width: 430px;
+    height: 391.8px;
+    border-radius: 10px;
+    padding: 50px 0px 0px 50px;
+    background-color: #f0f0f0;
+    transition: all 0.5s ease;
+    z-index: 2;
+}
+.section-4 .card h3{
+    position: relative;
+    color: #3C0A7E;
+    font-size: 1.1rem;
+    transition: all 0.5s ease;
+}
+.section-4 .card h1{
+    position: relative;
+    margin-top: 20px;
+    color: #000;
+    font-size: 2.5rem;
+    font-weight: 500;
+    transition: all 0.5s ease;
+}
+
+/* 320px */
+@media screen and (min-width: 320px){
+    .section-4 .content-section {
+        left: 0%;
+        clip-path: polygon(0 0%, 50% 500%, 100% 0);
+    }
+    .section-4 .content-section h1 {
+        font-size: 2rem;
+    }
+
+    .section-4 .card{
+        top: 320px;
+        left: 3px;
+        width: 310px;
+        padding: 50px 0px 0px 30px;
+    }
+    .section-4 .card h1{
+        font-size: 2rem;
+    }
+}
+/* 375px */
+@media screen and (min-width: 375px){
+    .section-4 .content-section {
+        left: 0%;
+        clip-path: polygon(0 0%, 50% 500%, 100% 0);
+    }
+    .section-4 .content-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .section-4 .card{
+        top: 350px;
+        left: 10px;
+        width: 350px;
+        padding: 50px 0px 0px 30px;
+    }
+    .section-4 .card h1{
+        font-size: 2.1rem;
+        margin-bottom: 40px;
+    }
+}
+/* 425px */
+@media screen and (min-width: 425px){
+    .section-4 .content-section {
+        left: 1%;
+        clip-path: polygon(0 0%, 100% 700%, 100% 0);
+    }
+    .section-4 .content-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .section-4 .card{
+        top: 350px;
+        left: 20px;
+        width: 380px;
+    }
+    .section-4 .card h1{
+        font-size: 2.3rem;
+    }
+}
+/* 768px */
+@media screen and (min-width: 768px){
+    .section-4 .content-section {
+        left: 20%;
+        clip-path: polygon(0 0%, 0% 500%, 100% 0);
+    }
+    .section-4 .content-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .section-4 .card{
+        top: 300px;
+        left: 100px;
+        width: 410px;
+    }
+    .section-4 .card h1{
+        font-size: 2.5rem;
+    }
+}
+/* 1024px */
+@media screen and (min-width: 1024px){
+    .section-4 .content-section {
+        left: 25%;
+        clip-path: polygon(0 0%, 0% 500%, 100% 0);
+    }
+    .section-4 .content-section h1 {
+        font-size: 3rem;
+    }
+    .section-4 .content-section p{
+        position: relative;
+        left: 55px;
+    }
+
+    .section-4 .card{
+        top: 300px;
+        left: 200px;
+        width: 430px;
+    }
+    .section-4 .card h1{
+        font-size: 2.7rem;
+    }
+}
+/* 1440px */
+@media screen and (min-width: 1440px){
+    .section-4 .content-section {
+        left: 29%;
+        clip-path: polygon(0 0%, 0% 500%, 100% 0);
+    }
+    .section-4 .content-section h1 {
+        font-size: 3.3rem;
+    }
+    .section-4 .content-section p{
+        position: relative;
+        left: 100px;
+    }
+
+    .section-4 .card{
+        top: 300px;
+        left: 200px;
+        width: 460px;
+    }
+}
