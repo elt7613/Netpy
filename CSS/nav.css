@@ -7,7 +7,8 @@
 } */
 
 .navbar{
-    position: relative;
+    position: fixed;
+    width: 100vw;
     z-index: 10;
 }
 
@@ -81,8 +82,8 @@
     display: none;
   }
   .navbar nav ul li.btn span{
-    height: 42px;
-    width: 42px;
+    height: 35px;
+    width: 35px;
     text-align: center;
     line-height: 42px;
     border-radius: 5px;
@@ -163,7 +164,7 @@
     .navbar nav ul li.logo-1{
         position: relative;
         font-size: 1.7rem;
-        left: 70px;
+        left: 20px;
     }
 }
 /* 425px */
@@ -171,7 +172,7 @@
     .navbar nav ul li.logo-1{
         position: relative;
         font-size: 1.8rem;
-        left: 20px;
+        left: 0px;
     }
 }
 /* 768px */
