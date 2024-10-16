@@ -8,7 +8,9 @@
     width: 100vw;
     min-height: 100vh;
     transition: all 0.5s ease;
+    
   }
+
 
 .section-2 header{
     position: relative;
@@ -126,6 +128,7 @@
     padding: 8px 10px;
     cursor: pointer;
     font-size: 1rem;
+    font-family: 'Urbanist';
     font-weight: 450;
     transition: all 0.5s ease;
 }
@@ -145,10 +148,12 @@
 
     .section-2 .slider-container h2 {
         font-size: 1.8rem;
+        font-family: 'Urbanist';
     }
 
     .section-2 .slider-container p {
         font-size: 1.1rem;
+        font-family: 'Urbanist';
     }
 
     .section-2 .slider-container .know-more img {
@@ -167,6 +172,7 @@
 
     .section-2 .slider-container p {
         font-size: 1.2rem;
+        font-family: 'Urbanist';
     }
 
     .section-2 .slider-container .know-more img {
@@ -187,10 +193,12 @@
 
     .section-2 .slider-container h2 {
         font-size: 1.2rem;
+        font-family: 'Urbanist';
     }
 
     .section-2 .slider-container p {
         font-size: 0.9rem;
+        font-family: 'Urbanist';
         width: 290px;
     }
 
@@ -201,6 +209,7 @@
     .section-2 .slider-container .nav-button {
         padding: 5px 8px;
         font-size: 0.9rem;
+        font-family: 'Urbanist';
     }
 }
 
@@ -210,10 +219,12 @@
     .section-2 header{
         margin-bottom: 15px;
         font-size: 3rem;
+        font-family: 'Urbanist';
         text-align: center;
     }
     .section-2 .info{
         font-size: 0.9rem;
+        font-family: 'Urbanist';
         width: 325px;
     }
     .section-2 .slider-container .logo {
@@ -226,11 +237,13 @@
     .section-2 header{
         margin-bottom: 15px;
         font-size: 3.2rem;
+        font-family: 'Urbanist';
         text-align: center;
     }
     .section-2 .info{
         font-size: 0.9rem;
         width: 370px;
+        font-family: 'Urbanist';
     }
     .section-2 .slider-container .logo {
         /* max-width: 120px; */
@@ -248,10 +261,12 @@
     .section-2 header{
         margin-bottom: 15px;
         font-size: 3.3rem;
+        font-family: 'Urbanist';
         text-align: center;
     }
     .section-2 .info{
         font-size: 0.9rem;
+        font-family: 'Urbanist';
         width: 410px;
     }
     .section-2 .slider-container .logo {
@@ -270,10 +285,12 @@
     .section-2 header{
         margin-bottom: 20px;
         font-size: 3.8rem;
+        font-family: 'Urbanist';
         text-align: center;
     }
     .section-2 .info{
         font-size: 1rem;
+        font-family: 'Urbanist';
         width: 1000px;
     }
     .section-2 .slider-container .logo {
@@ -296,10 +313,12 @@
     .section-2 header{
         margin-bottom: 20px;
         font-size: 4rem;
+        font-family: 'Urbanist';
         text-align: center;
     }
     .section-2 .info{
         font-size: 1.1rem;
+        font-family: 'Urbanist';
         width: 2000px;
     }
     .section-2 .slider-container .logo {
@@ -319,11 +338,13 @@
     .section-2 header{
         margin-bottom: 20px;
         font-size: 5rem;
+        font-family: 'Urbanist';
         text-align: center;
     }
     .section-2 .info{
         font-size: 1.1rem;
         width: 3000px;
+        font-family: 'Urbanist';
     }
     .section-2 .slider-container .logo {
         /* max-width: 120px; */

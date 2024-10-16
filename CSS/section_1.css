@@ -30,6 +30,7 @@
     padding-left: 70px;
     gap: 10px;
     transition: all 0.5s ease;
+   
 }
 
 .section-1 .hero-text {
@@ -39,6 +40,8 @@
     text-transform: lowercase;
     line-height: 1.1; /* Adjust this value to control the gap */
     transition: all 0.5s ease;
+    font-family: 'Urbanist';
+   
 }
 
 .section-1 .hero-content p {
@@ -57,6 +60,7 @@
 
 
 .section-1 .hero-paragraph p {
+    font-family: 'Urbanist';
     font-size: 1.1em;
     line-height: 1.6;
     color: rgb(205, 192, 192);
@@ -92,6 +96,7 @@
     width: 100%;
     border: none;
     transition: background-color 0.3s;
+    font-family: 'Urbanist';
 }
 
 .section-1 .get-in-touch-button:hover {
@@ -311,9 +316,7 @@
 .section-1 .card {
     color: white;
     overflow: hidden;
-    border-radius: 10px;
     margin: 10px;
-    flex: 1 1 100%;
     transition: transform 0.3s;
     background-size: cover;
     position: relative;
@@ -321,6 +324,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 60%; /* Reduce the width */
+    min-height: 300px; /* Set a minimum height */
+    max-width: 320px; /* Optional: limit maximum width */
 }
 
 .section-1 .card:hover {
@@ -329,23 +335,25 @@
 
 .section-1 .card .card-header {
     font-size: 1rem;
-    font-weight: 200;
+    font-weight: 100;
     position: absolute;
     top: 10px;
     left: 10px;
     z-index: 2;
     opacity: 1;
+    font-family: 'Urbanist';
 }
 
 .section-1 .card .card-description {
     font-size: 20rem;
-    font-weight: 500;
+    font-weight: 200;
     margin-top: 30px;
     transition: transform 0.3s ease, font-size 0.3s ease;
     position: absolute;
     top: 40px;
     left: 10px;
     z-index: 1;
+    font-family: 'Urbanist';
 }
 
 .section-1 .card a {
@@ -356,6 +364,7 @@
     left: 10px;
     z-index: 2;
     font-size: 16px;
+    font-family: 'Urbanist';
 }
 
 .section-1 .see-more-link {
@@ -364,6 +373,7 @@
     font-size: 16px;
     margin-left: 10px;
     margin-bottom: 20px;
+    font-family: 'Urbanist';
 }
 
 .section-1 .see-more-link  img {
@@ -390,11 +400,13 @@
     opacity: 1;
     font-size: 1rem;
     font-weight: 100;
+    font-family: 'Urbanist';
 }
 
 .section-1 .card:hover .card-description {
     font-size: 1.5rem;
     transform: translateY(-10px);
+    font-family: 'Urbanist';
 }
 
 .section-1 .card:hover .card-header,
@@ -416,10 +428,12 @@
     .section-1 .card .card-description {
         margin-top: 50px;
         font-size: 3rem;
+        font-family: 'Urbanist';
     }
     
     .section-1 .new-content {
         font-size: 1.2rem;
+        font-family: 'Urbanist';
     }
 }
 /* 375px */
@@ -429,6 +443,7 @@
     }
     .section-1 .new-content {
         font-size: 1.5rem;
+        font-family: 'Urbanist';
     }
 }
 
@@ -437,14 +452,18 @@
     .section-1 .card {
         flex: 0 0 calc(50% - 20px);
         margin: 10px;
+        width: 60%; /* Adjust width for larger screens */
+        min-height: 350px; /* Adjust height for larger screens */
     }
     
     .section-1 .card .card-description {
         font-size: 3.5rem;
+        font-family: 'Urbanist';
     }
     
     .section-1 .new-content {
         font-size: 1rem;
+        font-family: 'Urbanist';
     }
 }
 
@@ -452,10 +471,13 @@
 @media screen and (min-width: 1024px) {
     .section-1 .card {
         flex: 0 0 calc(33.33% - 20px);
+        width: 40%; /* Further adjust for wide screens */
+        min-height: 400px;
     }
     
     .section-1 .card .card-description {
         font-size: 3rem;
+        font-family: 'Urbanist';
     }
 }
 
@@ -468,6 +490,7 @@
     
     .section-1 .card .card-description {
         font-size: 3.5rem;
+        font-family: 'Urbanist';
     }
 }
 

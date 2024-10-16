@@ -24,10 +24,12 @@
     padding: 10px;
     text-align: right;
     transition: transform 1s ease, font-size 1s ease;
+    font-weight: 100;
 }
 .section-7-text-overlay p{
     font-size: 3rem;
-    font-weight: 550;
+    font-family: 'Urbanist';
+    font-weight: 100;
     text-align: right;
 }
 
@@ -39,6 +41,8 @@
     background: #9747FF;
     color: #fff;
     border: none;
+    font-family: 'Urbanist';
+    font-weight: 100;
     border-radius: 8px;
     cursor: pointer;
     transition: transform 1s ease, font-size 1s ease;
@@ -60,9 +64,11 @@
     }
     .section-7-text-overlay p{
         font-size: 2rem;
+        font-family: 'Urbanist';
     }
     .section-7-text-overlay p span{
         font-size: 2.2rem;
+        font-family: 'Urbanist';
     }
     .section-7-button {
         right: 5%;
@@ -76,9 +82,11 @@
     }
     .section-7-text-overlay p{
         font-size: 2rem;
+        font-family: 'Urbanist';
     }
     .section-7-text-overlay p span{
         font-size: 2.5rem;
+        font-family: 'Urbanist';
     }
 }
 /* 768px */
@@ -92,9 +100,11 @@
     }
     .section-7-text-overlay p{
         font-size: 3rem;
+        font-family: 'Urbanist';
     }
     .section-7-text-overlay p span{
         font-size: 3.5rem;
+        font-family: 'Urbanist';
     }
 }
 /* 1024px */
@@ -109,9 +119,11 @@
     }
     .section-7-text-overlay p{
         font-size: 3.2rem;
+        font-family: 'Urbanist';
     }
     .section-7-text-overlay p span{
         font-size: 3.9rem;
+        font-family: 'Urbanist';
     }
 }
 /* 1440px */
@@ -126,8 +138,10 @@
     }
     .section-7-text-overlay p{
         font-size: 4rem;
+        font-family: 'Urbanist';
     }
     .section-7-text-overlay p span{
         font-size: 4.5rem;
+        font-family: 'Urbanist';
     }
 }

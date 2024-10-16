@@ -5,7 +5,7 @@
     padding: 20px 0;
     text-align: center;
     backdrop-filter: blur(12px) saturate(180%);
-  -webkit-backdrop-filter: blur(12px) saturate(180%);
+    -webkit-backdrop-filter: blur(12px) saturate(180%);
   background-color: rgba(44, 41, 41, 0.25);
   transition: all 0.5s ease;
 }
@@ -26,7 +26,7 @@
     display: flex;
     flex-direction: column;
     align-items: center; 
-    width: 60%;
+    width: 70%;
     transition: all 0.5s ease;
 }
 
@@ -39,9 +39,10 @@
 }
 
 .footer-part-a h2 {
-    font-size: 2em;
+    font-size: 0.8em; /* Reduced font size */
     margin-bottom: 10px;
     color: #fff;
+    white-space: nowrap; /* Ensure heading stays on one line */
     transition: all 0.5s ease;
 }
 
@@ -54,8 +55,14 @@
 .footer-part-b {
     position: relative;
     display: flex;
-    align-items: center; 
+    justify-content: center; /* Align columns to the center */
+    align-items: flex-start; /* Align items to the top */
+    margin-top: 10px; /* Add space between the heading and columns */
     transition: all 0.5s ease;
+}
+
+.footer-column {
+    margin-left: 10px; /* Add spacing between columns if necessary */
 }
 
 .footer-column ul {
@@ -63,15 +70,16 @@
     width: 100%;
     list-style: none;
     padding-left: 0;
-    text-align: center;
+    text-align: left; /* Align text to the left for a cleaner layout */
     margin: 0px;
     transition: all 0.5s ease;
 }
 
 .footer-column li {
     position: relative;
-    width: 100px;
-    margin-bottom: 20px; 
+    width: auto; /* Adjust width to auto to fit content */
+    margin-bottom: 20px;
+    white-space: nowrap; /* Prevents line breaks inside li */
     transition: all 0.5s ease;
 }
 
@@ -84,20 +92,36 @@
 
 /* Copyright Section */
 .footer-copyright {
-  margin-bottom: 20px;
+    margin-top: 20px; /* Add spacing above copyright */
+    margin-bottom: 80px;
     text-align: center;
     font-size: 14px;
-    width: 100%; 
+    width: 100%;
     color: #fff;
     opacity: 1;
-    margin-right: 230px;
     transition: all 0.5s ease;
 }
+
+/* Adjust the layout for alignment */
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-part-a, .footer-part-b, .footer-copyright {
+    max-width: 1000px; /* Set a max width for consistent alignment */
+   
+}
+
 
 /* Right Side - GIF */
 .footer-right {
     width: 100%;
     transition: all 0.5s ease;
+    margin-left: 50px;
 }
 
 .footer-gif img {

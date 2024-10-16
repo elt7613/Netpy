@@ -24,6 +24,7 @@
 .section-3 .container h1 {
     font-weight: 700;
     font-size: 4rem;
+    font-family: 'Urbanist';
     line-height: 1.2;
     color: #fff;
     text-align: center;
@@ -51,7 +52,6 @@
     width: 531px;
     height: 412px;
     padding: 20px;
-    border-radius: 15px;
     transition: all 0.5s ease;
     background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
     color: #fff;
@@ -59,6 +59,7 @@
     align-items: center;
     justify-content: center;
     font-size: 1.5rem;
+    font-family: 'Urbanist';
     text-align: center;
 }
    
@@ -73,6 +74,7 @@
     bottom: 20px;
     left: 20px;
     font-size: 2rem;
+    font-family: 'Urbanist';
     color: #fff;
     transition: all 0.5s ease;
    }
@@ -87,7 +89,9 @@
     position: absolute;
     bottom: 20px;
     left: 20px;
+    right: 20px;
     font-size: 2rem;
+    font-family: 'Urbanist';
     color: #fff;
     transition: all 0.5s ease;
    }
@@ -103,6 +107,7 @@
     bottom: 20px;
     left: 20px;
     font-size: 2rem;
+    font-family: 'Urbanist';
     color: #fff;
     transition: all 0.5s ease;
    }
@@ -111,6 +116,7 @@
 @media screen and (min-width: 320px){
     .section-3 .container h1{
         font-size: 2.3rem;
+        font-family: 'Urbanist';
     }
 
     .section-3 .card-container .card{
@@ -130,6 +136,7 @@
 @media screen and (min-width: 375px){
     .section-3 .container h1{
         font-size: 2.8rem;
+        font-family: 'Urbanist';
     }
 
     .section-3 .card-container .card{
@@ -149,6 +156,7 @@
 @media screen and (min-width: 425px){
     .section-3 .container h1{
         font-size: 3rem;
+        font-family: 'Urbanist';
     }
 
     .section-3 .card-container .card{
@@ -168,6 +176,7 @@
 @media screen and (min-width: 768px){
     .section-3 .container h1{
         font-size: 3.6rem;
+        font-family: 'Urbanist';
     }
 
     .section-3 .card-container .card{
@@ -187,6 +196,7 @@
 @media screen and (min-width: 1024px){
     .section-3 .container h1{
         font-size: 4.5rem;
+        font-family: 'Urbanist';
     }
 
     .section-3 .card-container .card{

@@ -46,9 +46,9 @@
     padding: 0 12px;
     color: #fff;
   }
-  .navbar nav ul div.items a:hover{
+  /* .navbar nav ul div.items a:hover{
     color: #850be8;
-  }
+  } */
   .navbar nav ul .search-icon{
     height: 40px;
     width: 240px;
